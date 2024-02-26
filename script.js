@@ -80,6 +80,6 @@ function resultElement(result) {
 function movesElement(move, computerChoice) {
 	document.querySelector(".moves").innerHTML = `You
   <img class="image" src="images/${move}-emoji.png" alt="${move}">
-  <img class="image" src="images/${move}-emoji.png" alt="${move}">
+  <img class="image" src="images/${computerChoice}-emoji.png" alt="${move}">
   Computer`;
 }
