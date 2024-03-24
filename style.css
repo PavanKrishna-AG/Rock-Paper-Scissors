@@ -126,7 +126,7 @@ body {
 		margin: 0%;
 	}
 }
-@media (max-width: 365px){
+@media (max-width: 320px){
 	.body{
 		margin: 0;
 		display: none;
@@ -139,9 +139,10 @@ body {
 	}
 	
 	.heading {
-		font-size: 36px;
+		font-size: 30px;
     font-weight: bold;
-    width: 360px;
+    width: 306px;
+
 	}
 	.btn{
 		font-size: 0px;
