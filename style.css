@@ -1,6 +1,8 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-image: url(images/bg.jpg);
+	width: 100%;
+	margin: 0;
 	background-size: cover;
 	color: white;
 	display: flex;
@@ -11,7 +13,7 @@ body {
 .main {
 	background: transparent;
 	backdrop-filter: blur(3px);
-	width: 500px;
+	width: 30%;
 	height: 550px;
 	margin-top: 15px;
 	border: 1px solid;
@@ -51,3 +53,77 @@ body {
 	border: none;
 	border-radius: 50px;
 }
+@media (max-width: 1342px){
+	.main {
+    width: 40%;
+  }
+}
+@media (max-width: 1009px){
+	.main {
+    width: 50%;
+  }
+}
+@media (max-width: 804px){
+	.main {
+    width: 60%;
+  }
+}
+@media (max-width: 676px){
+	.body{
+		margin: 0;
+	}
+	.main {
+		overflow: hidden;
+    height: 568px;
+    width: 90%;
+		padding: 0px;
+		margin: 0;
+	}
+	
+	.heading {
+		font-size: 40px;
+    font-weight: bold;
+    width: 400px;
+	}
+	.btn{
+		font-size: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+	}
+	.img-btn{
+		margin: 0%;
+	}
+}
+@media (max-width: 455px){
+	.body{
+		margin: 0;
+		display: none;
+	}
+	.main {
+		overflow: hidden;
+    height: 568px;
+    width: 97%;
+		margin: 10px 0px;
+	}
+	
+	.heading {
+		font-size: 40px;
+    font-weight: bold;
+    width: 400px;
+	}
+	.btn{
+		font-size: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+	}
+	.img-btn{
+		margin: 0%;
+	}
+}
+
