@@ -126,4 +126,33 @@ body {
 		margin: 0%;
 	}
 }
+@media (max-width: 365px){
+	.body{
+		margin: 0;
+		display: none;
+	}
+	.main {
+		overflow: hidden;
+    height: 568px;
+    width: 97%;
+		margin: 10px 0px;
+	}
+	
+	.heading {
+		font-size: 36px;
+    font-weight: bold;
+    width: 360px;
+	}
+	.btn{
+		font-size: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+	}
+	.img-btn{
+		margin: 0%;
+	}
+}
 
